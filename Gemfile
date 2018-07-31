@@ -61,3 +61,13 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+#Install grape
+gem "grape"
+gem "grape-entity"
+gem "grape-swagger"
+gem "grape-rabl"
+gem "swagger_ui_engine"
+
+#Pry install
+gem "pry" 
+gem "pry-doc"
